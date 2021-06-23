@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciicii & Sons Online Spareparts Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/small-logo.jpg" alt="small-logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+
+            <div class="row banner">
+                <div class="col-2">
+                    <h1>Your Choice For <br>Quality Spare Parts.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Ducimus, saepe.</p>
+                    <a href="" class="btn">See More &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/cart_image.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Products -->
+
+    <div class="products-container">
+        <h2 class="products">Products</h2>
+        <div class="products-section">
+            <div class="row display">
+                <div class="col-4">
+                    <img src="images/bearings.jpg" alt="bearings_image">
+                    <h4>Bearings</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <h4>N2,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/rims.jpg" alt="rims_image">
+                    <h4>Rims</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h4>N45,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/muffler.jpg" alt="muffler_image">
+                    <h4>Muffler (Silencer)</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At.</p>
+                    <h4>N25,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/sparkplugs.jpg" alt="sparkplugs_image">
+                    <h4>Spark Plugs</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <h4>N200.00</h4>
+                </div>
+            </div>
+    
+            <div class="row display">
+                <div class="col-4">
+                    <img src="images/bearings.jpg" alt="bearings_image">
+                    <h4>Bearings</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <h4>N2,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/rims.jpg" alt="rims_image">
+                    <h4>Rims</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h4>N45,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/muffler.jpg" alt="muffler_image">
+                    <h4>Muffler (Silencer)</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At.</p>
+                    <h4>N25,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/sparkplugs.jpg" alt="sparkplugs_image">
+                    <h4>Spark Plugs</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <h4>N200.00</h4>
+                </div>
+            </div>
+    
+            <div class="row display stock">
+                <div class="col-4">
+                    <img src="images/bearings.jpg" alt="bearings_image">
+                    <h4>Bearings</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <h4>N2,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/rims.jpg" alt="rims_image">
+                    <h4>Rims</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h4>N45,000.00</h4>
+                </div>
+    
+                <div class="col-4">
+                    <img src="images/muffler.jpg" alt="muffler_image">
+                    <h4>Muffler (Silencer)</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At.</p>
+                    <h4>N25,000.00</h4>
+                </div>
+                
+                <!-- <div class="col-4">
+                    <img src="images/sparkplugs.jpg" alt="bearings_image">
+                    <h4>Spark Plugs</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                    <h4>N200.00</h4>
+                </div> -->
+            </div>
+    
+            
+        </div>
+
+        <!---- Add More Button  -->
+        <div>
+            <button class="btn" id="uploadbtn">
+                <span>Add New Product</span>
+            </button>
+        </div> 
+        
+        
+        <!-- Modal To Add New Product Details -->
+        <div class="modal">
+            <div class="modal-content">
+                <div class="title">New Product Information </div>
+                <div class="product-details">
+                    <form action="#">
+                        <div>
+                            <h4>Product Name </h4>
+                            <input type="text" id="productName" placeholder="Enter Product Name">
+                        </div>
+                        <div>
+                            <h4>Product Description</h4>
+                            <input type="text" id="productDesc" placeholder="Enter Product Description">
+                        </div>
+                        <div>
+                            <h4>Product Price</h4>
+                            <input type="text" id="productPrice" placeholder="Enter Product price">
+                        </div>
+                        <div>
+                            <h4>Product Source</h4>
+                            <input type="text" id="productUrl" placeholder="Enter Product url">
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="hide fas fa-times"></div>
+                <div>
+                    <button class="btn" id="confirm-upload">
+                        <span>Upload New Product</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/functions.js"></script>
+</body>
+
+</html>
